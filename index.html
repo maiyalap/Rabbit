@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Hello, Boston!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="https://httpbin.org/get">
+        <blockquote class="kumkom">
+            คำว่ารักคงยังไม่พอ
+        </blockquote>
+        <p>
+            <label for="input-fullname">ชื่อเต็ม</label>
+        </p>
+        <p>
+            <input id="input-fullname" type="text" name="fullname">
+        </p>
+        <p>
+            <label for="input-email">Email</label>
+        </p>
+        <p>
+            <input id="input-email" type="email" name="email">
+        </p>
+        <p>
+            <label for="input-inside-heart">ความในใจ</label>
+        </p>
+        <p>
+            <textarea id="input-inside-heart" name="input-inside-heart"
+             rows =8>
+            </textarea>
+        </p>
+        <p>Color</p>
+        <p>
+            <input id="input-color-red" type="radio" name="color" value="red">
+            <label for="input-color-red">Red</label>
+            <input id="input-color-blue" type="radio" name="color" value="blue" checked>
+            <label for="input-color-blue">Blue</label>
+        </p>
+        <p>Sport</p>
+        <p>
+            <input id="input-sport-football" type="checkbox" name="sport" value="football" checked>
+            <label for="input-color-red">football</label>
+            <input id="input-sport-valleyball" type="checkbox" name="sport" value="Valleyball">
+            <label for="input-color-valleyball">Valleyball</label>
+        </p>
+        <p>Server</p>
+        <p>
+            <select name="server">
+                <option value="Europe">Europe</option>
+                <option value="America">America</option>
+                <option value="Asia" selected>Asia</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">ส่งข้อมูล</button>
+        </p>
+    </form>        
+  </body>
+</html>
